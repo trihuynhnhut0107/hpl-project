@@ -1,6 +1,6 @@
 <template>
   <div class="w-screen h-screen flex flex-col items-center justify-center">
-    <form class="flex flex-col justify-center items-center">
+    <form class="flex flex-col justify-center items-center bg-red-600">
       <input class="" type="file" @change="handleFileChange" />
       <button @click.prevent="uploadFile" :disabled="!selectedFile">
         Upload File
