@@ -12,7 +12,7 @@
 <script setup>
 import { ref } from "vue";
 
-const uploadUrl = "http://localhost:8000/upload-file/test"; // Replace with your API endpoint
+const uploadUrl = "https://google-drive-nodejs.onrender.com/upload-file/test"; // Replace with your API endpoint
 const selectedFile = ref(null); // To store the selected file
 
 const handleFileChange = (event) => {
